@@ -4,8 +4,7 @@
   "description": "",
   "main": "index.html",
   "scripts": {
-    "start": "http-server ./public -c-1",
-    "deploy": "gh-pages -d dist"
+    "start": "http-server ./public -c-1"
   },
   "author": "",
   "license": "ISC",
