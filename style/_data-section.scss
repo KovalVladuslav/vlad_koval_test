@@ -25,6 +25,7 @@
     color: #fff;
     font-size: 24px;
     margin: 45px 0 15px;
+    min-width: max-content;
 
     &--pink {
       color: #f93175;
@@ -34,6 +35,14 @@
   &__logos {
     display: flex;
     justify-content: space-between;
+
+    & img {
+      transition: ease 0.7s all;
+
+      &:hover {
+        transform: scale(1.2);
+      }
+    }
   }
 
   @media (max-width: 1100px) {

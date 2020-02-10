@@ -56,12 +56,18 @@
 
   &__range {
     margin: auto;
-    background-color: #000000;
+    background-color: #000;
     border-radius: 50%;
     display: flex;
     justify-content: center;
     box-sizing: border-box;
     flex-wrap: wrap;
+    transition: 1s all ease;
+
+    &:hover {
+      transform: rotate(360deg);
+      background-color: rgb(6, 117, 6);
+    }
 
     &--big {
       padding: 45px 35px;
